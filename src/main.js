@@ -4,11 +4,11 @@ import App from './App.vue'
 import {
   applyPolyfills,
   defineCustomElements as defineProductMgmtExp
-} from '@ranjeetsinghbnl/product-mgmt-stenciljs/loader'
+} from 'ms-st/loader'
 
 Vue.config.productionTip = false
 
-Vue.config.ignoredElements = [/mf-\w*/];
+Vue.config.ignoredElements = [/ms-\w*/];
 
 // Bind the custom elements to the window object
 applyPolyfills().then(() => {

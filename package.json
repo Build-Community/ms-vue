@@ -1,5 +1,5 @@
 {
-  "name": "mf-exp",
+  "name": "ms-vue",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,6 +10,8 @@
   "dependencies": {
     "@ranjeetsinghbnl/product-mgmt-stenciljs": "0.0.1",
     "core-js": "^2.6.5",
+    "ms-lower-layer": "^0.0.2",
+    "ms-st": "^0.0.4",
     "vue": "^2.6.10"
   },
   "devDependencies": {
